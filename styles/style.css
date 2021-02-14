@@ -6,7 +6,7 @@
 .grid {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 60px 1fr 47px;
     grid-template-areas: "header" "main" "footer";
 }
@@ -29,12 +29,16 @@ header {
 }
 
 .left {
+    display: flex;
     background-color: var(--debug2);
     float: left;
 }
 
 .right {
+    display: flex;
+    align-items: center;
     background-color: var(--debug);
+    text-align: right;
     float: right;
 }
 
