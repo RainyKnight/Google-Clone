@@ -23,6 +23,10 @@ a:hover {
     color: var(--off-black);
 }
 
+#google-logo {
+    margin: auto;
+}
+
 /* stylize the search field */
 
 .text-platform {
@@ -99,6 +103,13 @@ header {
     float: left;
 }
 
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+
 .right {
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +120,9 @@ header {
 
 footer {
     padding: 1rem;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
     grid-area: footer;
     background-color: var(--google-darken);
 }
