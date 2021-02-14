@@ -16,17 +16,29 @@
 </head>
 
 <body>
-    <header>
-        <div class="left">L</div>
-        <div class="right">R</div>
-    </header>
-    <main>
-        <h1>Google</h1>
-    </main>
-    <footer>
-        <div class="left">L</div>
-        <div class="right">R</div>
-    </footer>
+    <div class="grid">
+        <header>
+            <div class="left">L</div>
+            <div class="right">R</div>
+        </header>
+        <main>
+            <div class="flex-column">
+                <h1>Google</h1>
+                <form action="#">
+                    <div class="flex-column">
+                        <input type="text" name="user-input" id="user-input">
+                        <div class="flex-row">
+                            <input type="submit" name="search" id="search" value="Google Search">
+                            <input type="submit" name="lucky" id="lucky" value="I'm Feeling Lucky">
+                        </div>
+                    </div>
+                </form>
+        </main>
+        <footer>
+            <div class="left">L</div>
+            <div class="right">R</div>
+        </footer>
+    </div>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
