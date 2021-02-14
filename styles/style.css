@@ -1,6 +1,14 @@
 :root {
     --debug: red;
     --debug2: blue;
+    --google-darken: hsl(0, 0%, 92%);
+    --off-black: #222;
+}
+
+a {
+    text-decoration: none;
+    color: var(--off-black);
+    margin: 0 5px;
 }
 
 .grid {
@@ -25,21 +33,19 @@
 header {
     display: flex;
     width: 100%;
-    background-color: tomato;
 }
 
 .left {
     display: flex;
+    align-items: center;
     background-color: var(--debug2);
-    float: left;
+    justify-items: left;
 }
 
 .right {
     display: flex;
     align-items: center;
     background-color: var(--debug);
-    text-align: right;
-    float: right;
 }
 
 main {
@@ -51,5 +57,5 @@ main {
 footer {
     grid-area: footer;
     display: flex;
-    background-color: tomato;
+    background-color: var(--google-darken);
 }
