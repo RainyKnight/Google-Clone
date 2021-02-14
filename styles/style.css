@@ -18,6 +18,11 @@ a {
     margin: 0 5px;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: var(--off-black);
+}
+
 .text-platform {
     margin: 2rem;
     border: 1px solid hsl(0, 0%, 85%);
@@ -81,7 +86,7 @@ header {
 main {
     display: flex;
     margin: auto;
-    margin-top: 25%;
+    margin-top: 235px;
     grid-area: main;
 }
 
