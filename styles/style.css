@@ -31,21 +31,21 @@ a {
 }
 
 header {
-    display: flex;
     width: 100%;
 }
 
 .left {
     display: flex;
     align-items: center;
-    background-color: var(--debug2);
-    justify-items: left;
+    height: 100%;
+    float: left;
 }
 
 .right {
     display: flex;
     align-items: center;
-    background-color: var(--debug);
+    height: 100%;
+    float: right;
 }
 
 main {
@@ -56,6 +56,5 @@ main {
 
 footer {
     grid-area: footer;
-    display: flex;
     background-color: var(--google-darken);
 }
