@@ -1,3 +1,43 @@
 :root {
     --debug: red;
+    --debug2: blue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 60px auto 47px;
+    grid-template-areas: "header header header" ". main ." "footer footer footer";
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    background-color: var(--debug2);
+    display: inherit;
+    float: left;
+}
+
+.right {
+    background-color: var(--debug);
+    display: inherit;
+    float: right;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    grid-area: main;
+}
+
+footer {
+    width: 100;
+    grid-area: footer;
 }
