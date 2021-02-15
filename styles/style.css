@@ -48,7 +48,15 @@ a:hover {
 #search-icon {
     margin: 0.4rem;
     margin-right: 0.7rem;
-    opacity: 50%;
+    color: hsl(0, 0%, 78%);
+}
+
+#mic-icon {
+    margin: 0.4rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    color: #4285F4;
+    font-size: 130%;
 }
 
 input[type="text"] {
