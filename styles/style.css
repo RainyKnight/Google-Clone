@@ -30,6 +30,9 @@ a:hover {
 /* stylize the search field */
 
 .text-platform {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 1.5rem;
     border: 1px solid hsl(0, 0%, 85%);
     border-radius: 5000px;
@@ -40,6 +43,12 @@ a:hover {
 .text-platform:hover {
     border: 1px solid white;
     box-shadow: 0 1px 5px hsl(0, 0%, 70%);
+}
+
+#search-icon {
+    margin: 0.4rem;
+    margin-right: 0.7rem;
+    opacity: 50%;
 }
 
 input[type="text"] {
