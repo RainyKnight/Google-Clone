@@ -16,12 +16,28 @@ body, input, button {
 a {
     text-decoration: none;
     color: var(--off-black);
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 a:hover {
     text-decoration: underline;
     color: var(--off-black);
+}
+
+.circle-dropdown {
+    margin: 0 0.5rem;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    opacity: 70%;
+}
+
+.circle-dropdown:hover {
+    background-color: hsla(0, 0%, 0%, 0.12);
+}
+
+.inoperable {
+    pointer-events: none;
 }
 
 /* Customize the bootstrap sign in button */
@@ -163,4 +179,8 @@ footer {
 .footer>a {
     color: var(--footer);
     margin: 0 1rem;
+}
+
+.hidden {
+    display: none;
 }
