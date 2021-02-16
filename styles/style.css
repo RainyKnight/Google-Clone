@@ -140,7 +140,7 @@ main {
 }
 
 header {
-    padding: 1rem;
+    padding: 0 1rem;
     width: 100%;
 }
 
@@ -184,3 +184,25 @@ footer {
 .hidden {
     display: none;
 }
+
+@media (max-width: 400px) {
+    header {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    footer {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+    .left {
+        flex-direction: column;
+        float: unset;
+    }
+    .right {
+        flex-direction: column;
+        float: unset;
+    }
+    }
