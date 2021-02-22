@@ -1,6 +1,5 @@
 let userString;
 
-
 document.getElementById("search").addEventListener("click", myFunction);
 
 function myFunction() {
@@ -12,8 +11,3 @@ function myFunction() {
 function search(string) {
     window.open(`https://www.google.com/search?q=${userString}`);
 }
-
-
-// Add + between each term and add to url
-//https://www.google.com/search?q=(userString)
-//https://www.google.com/search?q=google+search+api
