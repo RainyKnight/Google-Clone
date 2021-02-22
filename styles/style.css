@@ -196,7 +196,6 @@ footer {
         /* flex-wrap: wrap; */
         flex-direction: column;
     }
-
     .left {
         flex-direction: column;
         float: unset;
@@ -205,4 +204,4 @@ footer {
         flex-direction: column;
         float: unset;
     }
-    }
+}
