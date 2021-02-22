@@ -9,5 +9,5 @@ function myFunction() {
 }
 
 function search(string) {
-    window.open(`https://www.google.com/search?q=${userString}`);
+    window.open(`https://www.google.com/search?q=${string}`);
 }
